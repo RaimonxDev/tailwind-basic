@@ -10,9 +10,124 @@
 </head>
 
 <body>
-  <div class="mt-10 ml-6">
-    <h1 class="text-3xl">Tailwind</h1>
+
+  <!-- top bar -->
+  <div class="relative z-0 bg-do-blue-dark text-gray-300 py-2">
+    <div class="container px-5 mx-auto flex justify-between items-center text-sm">
+      <section class="flex items-center">
+        <div> Boost availability, performance, and reliability with more powerful, upgraded Load Balancers!
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+        </svg>
+      </section>
+      <section class="flex gap-x-4 items-center">
+        <a class="bg-do-blue-medium-dark px-3 py-1 rounded text-sky-400 font-semibold" href="#">We're Hiring</a>
+        <a class="hover:text-white" href="">Blog</a>
+        <a class="hover:text-white" href="">Docs</a>
+        <a class="hover:text-white" href="">Get Support</a>
+        <a class="hover:text-white" href="">Sales</a>
+      </section>
+    </div>
   </div>
+
+
+  <nav class="relative shadow-md z-10">
+    <div class="container mx-auto py-5 flex items-center justify-between">
+      <!-- logo -->
+      <div class="flex items-center gap-x-6 font-medium">
+        <img src="https://www.digitalocean.com/_next/static/media/logo.87a8f3b8.svg" alt="LOGO">
+
+        <div class="flex items-center">
+
+          <a href="#">Products</a>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400 ml-1" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+        <a href="#">Solutions</a>
+        <a href="#">Marketplace</a>
+
+        <div class="flex items-center">
+
+          <a href="#">Community</a>
+
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400 ml-1" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+        <div class="flex items-center">
+
+          <a href="#">Pricing</a>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400 ml-1" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </div>
+      </div>
+      <!-- login -->
+      <div>
+        <a class="border border-gray-400 px-5 py-3 rounded-lg focus:outline-dotted focus:outline-1 focus:bg-sky-100"
+          href="">Log In</a>
+        <a class="text-white font-bold px-5 py-3 rounded-lg bg-do-blue-light hover:bg-do-blue-medium active:bg-do-blue-medium-dark active:text-sky-400"
+          href="">Sign
+          Up</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class=" relative pt-32 pb-48 z-0"
+    style="background: #f9fafe no-repeat center url(https://www.digitalocean.com/_next/static/media/hero-bg-animation.ca6301d3.svg); background-size: cover;">
+
+    <div class="container mx-auto flex items-center">
+      <div class="w-1/2">
+        <h1 class="text-6xl font-bold tracking-tighter">Happy developer teams make bigger waves.</h1>
+        <p class="mt-5 text-2xl font-medium text-gray-500 tracking-tighter">The cloud computing services you need, with
+          the predictable
+          pricing, developer-friendly features, and
+          scalability you'll
+          love.</p>
+      </div>
+
+      <!-- formulario -->
+      <div class="w-1/2">
+        <p class="font-medium mb-4">Welcome to DigitalOcean. Sign up to get started!</p>
+
+        <form action="">
+          <div class="flex flex-col gap-y-5 w-4/5 ">
+            <input
+              class=" shadow-input hover:shadow-input-focus focus:shadow-input-focus outline-none border border-gray-400 px-5 py-4 rounded-lg"
+              type="text" name="" id="">
+            <input
+              class=" shadow-input hover:shadow-input-focus focus:shadow-input-focus outline-none border border-gray-400 px-5 py-4 rounded-lg"
+              type="text" name="" id="">
+            <input
+              class=" shadow-input hover:shadow-input-focus focus:shadow-input-focus outline-none border border-gray-400 px-5 py-4 rounded-lg"
+              type="password" name="" id="">
+
+            <!-- buttons -->
+            <div class="flex gap-x-4 justify-between">
+              <button
+                class="text-white font-bold px-5 py-3 rounded-lg bg-do-blue-light hover:bg-do-blue-medium active:bg-do-blue-medium-dark active:text-sky-400 w-3/4">Deploy
+                in seconds</button>
+              <button class="p-3 bg-gray-200 rounded-lg hover:bg-gray-300"><img
+                  src="https://www.digitalocean.com/_next/static/media/google-logo.76778576.svg" alt="google"></button>
+              <button class="p-3 bg-gray-200 rounded-lg hover:bg-gray-300"><img
+                  src="https://www.digitalocean.com/_next/static/media/github-logo.7b98a572.svg" alt="github"></button>
+
+            </div>
+            <p class="text-gray-500">By singing up you agree to the <a class="underline font-light">terms of
+                services</a> </p>
+          </div>
+
+        </form>
+      </div>
+    </div>
+
+
+  </section>
 </body>
 
 </html>
