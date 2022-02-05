@@ -33,30 +33,41 @@
 
   <nav class="relative shadow-md z-10">
     <div class="container mx-auto py-5 flex items-center justify-between">
-      <!-- logo -->
-      <div class="flex items-center gap-x-6 font-medium">
-        <img
-          src="https://static.wixstatic.com/media/b019f6_16121f592f45471c8a49f8f58e7fe568~mv2.png/v1/fill/w_119,h_40,al_c,q_85,usm_0.66_1.00_0.01/n1_Mesa%20de%20trabajo%201_edited.webp"
-          alt="LOGO">
+      <div class="flex items-center gap-x-6 font-medium justify-between lg:justify-start w-full">
+        <!-- logo -->
+        <div class="w-1/2 lg:w-auto">
 
-        <div class="flex items-center">
-
-          <a href="#">Home</a>
-
+          <img
+            src="https://static.wixstatic.com/media/b019f6_16121f592f45471c8a49f8f58e7fe568~mv2.png/v1/fill/w_119,h_40,al_c,q_85,usm_0.66_1.00_0.01/n1_Mesa%20de%20trabajo%201_edited.webp"
+            alt="LOGO">
         </div>
-        <div class="flex items-center">
 
-          <a href="#">Cursos</a>
+        <nav class="gap-x-6 items-center hidden lg:flex">
+          <div class="flex items-center">
 
-        </div>
-        <div class="flex items-center">
+            <a href="#">Home</a>
 
-          <a href="#">Contacto</a>
+          </div>
+          <div class="flex items-center">
 
+            <a href="#">Cursos</a>
+
+          </div>
+          <div class="flex items-center">
+
+            <a href="#">Contacto</a>
+
+          </div>
+        </nav>
+
+        <div class="lg:hidden mr-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
         </div>
       </div>
       <!-- login -->
-      <div>
+      <div class="hidden lg:block">
         <a class="border border-gray-400 px-5 py-3 rounded-lg focus:outline-dotted focus:outline-1 focus:bg-sky-100"
           href="">Log In</a>
         <a class="text-white font-bold px-5 py-3 rounded-lg bg-do-blue-light hover:bg-do-blue-medium active:bg-do-blue-medium-dark active:text-sky-400"
